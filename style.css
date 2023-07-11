@@ -52,7 +52,7 @@ header .logo a{
 }
 /* header section ends */
 
-/* feature section starts */
+/* home section starts */
 .home{
     max-height: 100vh;
     background-color: #fceef1;
@@ -82,6 +82,36 @@ header .logo a{
     line-height: 1.5;
 }
 /* home section ends */
+
+/* about section starts */
+.about{
+    margin: 100px 0 0;
+    background-color: #d9eff0;
+}
+.about-title{
+    text-align: center;
+    font-size: 25px;
+    color: #272727;
+    padding: 50px 0 0;
+}
+.about-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-image{
+    width: 35%;
+    margin-left: 100px;
+}
+.about-desc{
+    width: 35%;
+    margin-right: 100px;
+}
+.about-desc p{
+    font-size: 18px;
+    color: #706f6f;
+}
+/* about section ends */
 
 /* feature section starts */
 .box-1{
