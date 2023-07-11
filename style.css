@@ -90,9 +90,10 @@ header .logo a{
 }
 .about-title{
     text-align: center;
-    font-size: 25px;
+    font-weight: bold;
+    font-size: 30px;
     color: #272727;
-    padding: 50px 0 0;
+    padding: 50px 0;
 }
 .about-content{
     display: flex;
@@ -107,8 +108,13 @@ header .logo a{
     width: 35%;
     margin-right: 100px;
 }
+.about-desc h2{
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 25px;
+}
 .about-desc p{
-    font-size: 18px;
+    font-size: 16px;
     color: #706f6f;
 }
 /* about section ends */
